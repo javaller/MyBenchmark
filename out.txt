@@ -1,0 +1,790 @@
+# JMH 1.17.4 (released 50 days ago)
+# VM version: JDK 1.7.0_79, VM 24.79-b02
+# VM invoker: C:\Program Files\Java\jre7\bin\java.exe
+# VM options: -Xms1024m -Xmx4096m
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ExampleTest.binaryHeapOutputStreamDirect
+# Parameters: (message = Test)
+
+# Run progress: 0,00% complete, ETA 00:08:45
+# Fork: 1 of 5
+# Warmup Iteration   1: 21,801 ns/op
+# Warmup Iteration   2: 20,530 ns/op
+# Warmup Iteration   3: 19,042 ns/op
+# Warmup Iteration   4: 18,888 ns/op
+# Warmup Iteration   5: 18,436 ns/op
+Iteration   1: 19,867 ns/op
+Iteration   2: 23,038 ns/op
+Iteration   3: 23,051 ns/op
+Iteration   4: 21,095 ns/op
+Iteration   5: 20,933 ns/op
+Iteration   6: 21,208 ns/op
+Iteration   7: 20,188 ns/op
+Iteration   8: 22,964 ns/op
+Iteration   9: 21,493 ns/op
+Iteration  10: 20,267 ns/op
+
+# Run progress: 2,86% complete, ETA 00:08:55
+# Fork: 2 of 5
+# Warmup Iteration   1: 21,566 ns/op
+# Warmup Iteration   2: 22,096 ns/op
+# Warmup Iteration   3: 19,132 ns/op
+# Warmup Iteration   4: 19,099 ns/op
+# Warmup Iteration   5: 18,746 ns/op
+Iteration   1: 17,767 ns/op
+Iteration   2: 21,734 ns/op
+Iteration   3: 20,381 ns/op
+Iteration   4: 21,042 ns/op
+Iteration   5: 19,705 ns/op
+Iteration   6: 19,367 ns/op
+Iteration   7: 19,561 ns/op
+Iteration   8: 20,772 ns/op
+Iteration   9: 23,288 ns/op
+Iteration  10: 20,209 ns/op
+
+# Run progress: 5,71% complete, ETA 00:08:38
+# Fork: 3 of 5
+# Warmup Iteration   1: 21,574 ns/op
+# Warmup Iteration   2: 20,601 ns/op
+# Warmup Iteration   3: 19,069 ns/op
+# Warmup Iteration   4: 18,860 ns/op
+# Warmup Iteration   5: 17,678 ns/op
+Iteration   1: 17,750 ns/op
+Iteration   2: 21,863 ns/op
+Iteration   3: 20,990 ns/op
+Iteration   4: 19,977 ns/op
+Iteration   5: 19,590 ns/op
+Iteration   6: 19,711 ns/op
+Iteration   7: 19,653 ns/op
+Iteration   8: 21,952 ns/op
+Iteration   9: 20,441 ns/op
+Iteration  10: 21,457 ns/op
+
+# Run progress: 8,57% complete, ETA 00:08:22
+# Fork: 4 of 5
+# Warmup Iteration   1: 21,265 ns/op
+# Warmup Iteration   2: 20,485 ns/op
+# Warmup Iteration   3: 19,188 ns/op
+# Warmup Iteration   4: 18,968 ns/op
+# Warmup Iteration   5: 17,597 ns/op
+Iteration   1: 17,598 ns/op
+Iteration   2: 21,636 ns/op
+Iteration   3: 20,417 ns/op
+Iteration   4: 20,206 ns/op
+Iteration   5: 19,691 ns/op
+Iteration   6: 19,559 ns/op
+Iteration   7: 19,749 ns/op
+Iteration   8: 21,133 ns/op
+Iteration   9: 20,552 ns/op
+Iteration  10: 20,472 ns/op
+
+# Run progress: 11,43% complete, ETA 00:08:07
+# Fork: 5 of 5
+# Warmup Iteration   1: 21,307 ns/op
+# Warmup Iteration   2: 20,220 ns/op
+# Warmup Iteration   3: 19,097 ns/op
+# Warmup Iteration   4: 18,666 ns/op
+# Warmup Iteration   5: 17,637 ns/op
+Iteration   1: 17,659 ns/op
+Iteration   2: 21,683 ns/op
+Iteration   3: 21,802 ns/op
+Iteration   4: 19,788 ns/op
+Iteration   5: 19,605 ns/op
+Iteration   6: 19,614 ns/op
+Iteration   7: 19,466 ns/op
+Iteration   8: 21,020 ns/op
+Iteration   9: 20,672 ns/op
+Iteration  10: 20,404 ns/op
+
+
+Result "org.sample.ExampleTest.binaryHeapOutputStreamDirect":
+  20,481 ±(99.9%) 0,647 ns/op [Average]
+  (min, avg, max) = (17,598, 20,481, 23,288), stdev = 1,307
+  CI (99.9%): [19,834, 21,128] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 50 days ago)
+# VM version: JDK 1.7.0_79, VM 24.79-b02
+# VM invoker: C:\Program Files\Java\jre7\bin\java.exe
+# VM options: -Xms1024m -Xmx4096m
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ExampleTest.binaryHeapOutputStreamDirect
+# Parameters: (message = TestTest)
+
+# Run progress: 14,29% complete, ETA 00:07:51
+# Fork: 1 of 5
+# Warmup Iteration   1: 33,956 ns/op
+# Warmup Iteration   2: 32,515 ns/op
+# Warmup Iteration   3: 31,182 ns/op
+# Warmup Iteration   4: 30,019 ns/op
+# Warmup Iteration   5: 28,232 ns/op
+Iteration   1: 28,729 ns/op
+Iteration   2: 34,710 ns/op
+Iteration   3: 32,818 ns/op
+Iteration   4: 31,446 ns/op
+Iteration   5: 31,597 ns/op
+Iteration   6: 31,578 ns/op
+Iteration   7: 31,329 ns/op
+Iteration   8: 33,271 ns/op
+Iteration   9: 34,159 ns/op
+Iteration  10: 32,534 ns/op
+
+# Run progress: 17,14% complete, ETA 00:07:35
+# Fork: 2 of 5
+# Warmup Iteration   1: 34,145 ns/op
+# Warmup Iteration   2: 32,501 ns/op
+# Warmup Iteration   3: 30,861 ns/op
+# Warmup Iteration   4: 29,866 ns/op
+# Warmup Iteration   5: 28,081 ns/op
+Iteration   1: 28,107 ns/op
+Iteration   2: 34,545 ns/op
+Iteration   3: 32,729 ns/op
+Iteration   4: 31,218 ns/op
+Iteration   5: 31,404 ns/op
+Iteration   6: 31,295 ns/op
+Iteration   7: 31,638 ns/op
+Iteration   8: 35,133 ns/op
+Iteration   9: 32,498 ns/op
+Iteration  10: 32,292 ns/op
+
+# Run progress: 20,00% complete, ETA 00:07:19
+# Fork: 3 of 5
+# Warmup Iteration   1: 34,159 ns/op
+# Warmup Iteration   2: 33,632 ns/op
+# Warmup Iteration   3: 30,379 ns/op
+# Warmup Iteration   4: 29,986 ns/op
+# Warmup Iteration   5: 28,101 ns/op
+Iteration   1: 28,079 ns/op
+Iteration   2: 34,933 ns/op
+Iteration   3: 32,464 ns/op
+Iteration   4: 31,558 ns/op
+Iteration   5: 32,463 ns/op
+Iteration   6: 31,276 ns/op
+Iteration   7: 31,196 ns/op
+Iteration   8: 35,108 ns/op
+Iteration   9: 32,817 ns/op
+Iteration  10: 32,244 ns/op
+
+# Run progress: 22,86% complete, ETA 00:07:04
+# Fork: 4 of 5
+# Warmup Iteration   1: 34,001 ns/op
+# Warmup Iteration   2: 32,392 ns/op
+# Warmup Iteration   3: 30,591 ns/op
+# Warmup Iteration   4: 30,035 ns/op
+# Warmup Iteration   5: 28,294 ns/op
+Iteration   1: 28,019 ns/op
+Iteration   2: 34,822 ns/op
+Iteration   3: 32,769 ns/op
+Iteration   4: 31,754 ns/op
+Iteration   5: 31,121 ns/op
+Iteration   6: 31,507 ns/op
+Iteration   7: 31,269 ns/op
+Iteration   8: 33,746 ns/op
+Iteration   9: 32,493 ns/op
+Iteration  10: 32,310 ns/op
+
+# Run progress: 25,71% complete, ETA 00:06:48
+# Fork: 5 of 5
+# Warmup Iteration   1: 34,381 ns/op
+# Warmup Iteration   2: 32,552 ns/op
+# Warmup Iteration   3: 30,562 ns/op
+# Warmup Iteration   4: 30,021 ns/op
+# Warmup Iteration   5: 28,225 ns/op
+Iteration   1: 28,595 ns/op
+Iteration   2: 34,629 ns/op
+Iteration   3: 32,801 ns/op
+Iteration   4: 34,749 ns/op
+Iteration   5: 31,677 ns/op
+Iteration   6: 31,284 ns/op
+Iteration   7: 31,472 ns/op
+Iteration   8: 35,795 ns/op
+Iteration   9: 33,398 ns/op
+Iteration  10: 33,162 ns/op
+
+
+Result "org.sample.ExampleTest.binaryHeapOutputStreamDirect":
+  32,251 ±(99.9%) 0,917 ns/op [Average]
+  (min, avg, max) = (28,019, 32,251, 35,795), stdev = 1,852
+  CI (99.9%): [31,334, 33,167] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 50 days ago)
+# VM version: JDK 1.7.0_79, VM 24.79-b02
+# VM invoker: C:\Program Files\Java\jre7\bin\java.exe
+# VM options: -Xms1024m -Xmx4096m
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ExampleTest.binaryHeapOutputStreamDirect
+# Parameters: (message = TestTestTestTestTestTest)
+
+# Run progress: 28,57% complete, ETA 00:06:32
+# Fork: 1 of 5
+# Warmup Iteration   1: 92,600 ns/op
+# Warmup Iteration   2: 89,242 ns/op
+# Warmup Iteration   3: 84,161 ns/op
+# Warmup Iteration   4: 82,433 ns/op
+# Warmup Iteration   5: 77,773 ns/op
+Iteration   1: 77,751 ns/op
+Iteration   2: 95,113 ns/op
+Iteration   3: 88,145 ns/op
+Iteration   4: 86,820 ns/op
+Iteration   5: 86,825 ns/op
+Iteration   6: 89,045 ns/op
+Iteration   7: 87,016 ns/op
+Iteration   8: 91,701 ns/op
+Iteration   9: 90,092 ns/op
+Iteration  10: 89,087 ns/op
+
+# Run progress: 31,43% complete, ETA 00:06:16
+# Fork: 2 of 5
+# Warmup Iteration   1: 93,491 ns/op
+# Warmup Iteration   2: 88,014 ns/op
+# Warmup Iteration   3: 84,248 ns/op
+# Warmup Iteration   4: 82,717 ns/op
+# Warmup Iteration   5: 77,451 ns/op
+Iteration   1: 77,533 ns/op
+Iteration   2: 96,039 ns/op
+Iteration   3: 87,844 ns/op
+Iteration   4: 87,750 ns/op
+Iteration   5: 88,954 ns/op
+Iteration   6: 89,464 ns/op
+Iteration   7: 88,746 ns/op
+Iteration   8: 99,651 ns/op
+Iteration   9: 93,052 ns/op
+Iteration  10: 93,153 ns/op
+
+# Run progress: 34,29% complete, ETA 00:06:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 95,802 ns/op
+# Warmup Iteration   2: 91,594 ns/op
+# Warmup Iteration   3: 84,034 ns/op
+# Warmup Iteration   4: 83,137 ns/op
+# Warmup Iteration   5: 77,512 ns/op
+Iteration   1: 78,060 ns/op
+Iteration   2: 96,138 ns/op
+Iteration   3: 90,293 ns/op
+Iteration   4: 86,310 ns/op
+Iteration   5: 86,340 ns/op
+Iteration   6: 86,430 ns/op
+Iteration   7: 87,077 ns/op
+Iteration   8: 91,751 ns/op
+Iteration   9: 90,152 ns/op
+Iteration  10: 89,274 ns/op
+
+# Run progress: 37,14% complete, ETA 00:05:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 92,457 ns/op
+# Warmup Iteration   2: 89,807 ns/op
+# Warmup Iteration   3: 86,604 ns/op
+# Warmup Iteration   4: 85,358 ns/op
+# Warmup Iteration   5: 79,997 ns/op
+Iteration   1: 79,406 ns/op
+Iteration   2: 99,609 ns/op
+Iteration   3: 92,235 ns/op
+Iteration   4: 86,353 ns/op
+Iteration   5: 88,789 ns/op
+Iteration   6: 88,590 ns/op
+Iteration   7: 88,728 ns/op
+Iteration   8: 95,573 ns/op
+Iteration   9: 92,049 ns/op
+Iteration  10: 91,310 ns/op
+
+# Run progress: 40,00% complete, ETA 00:05:29
+# Fork: 5 of 5
+# Warmup Iteration   1: 94,433 ns/op
+# Warmup Iteration   2: 89,795 ns/op
+# Warmup Iteration   3: 84,466 ns/op
+# Warmup Iteration   4: 83,003 ns/op
+# Warmup Iteration   5: 78,002 ns/op
+Iteration   1: 78,412 ns/op
+Iteration   2: 95,188 ns/op
+Iteration   3: 92,991 ns/op
+Iteration   4: 88,129 ns/op
+Iteration   5: 86,161 ns/op
+Iteration   6: 86,384 ns/op
+Iteration   7: 86,119 ns/op
+Iteration   8: 94,087 ns/op
+Iteration   9: 91,615 ns/op
+Iteration  10: 90,316 ns/op
+
+
+Result "org.sample.ExampleTest.binaryHeapOutputStreamDirect":
+  89,153 ±(99.9%) 2,478 ns/op [Average]
+  (min, avg, max) = (77,533, 89,153, 99,651), stdev = 5,005
+  CI (99.9%): [86,675, 91,631] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 50 days ago)
+# VM version: JDK 1.7.0_79, VM 24.79-b02
+# VM invoker: C:\Program Files\Java\jre7\bin\java.exe
+# VM options: -Xms1024m -Xmx4096m
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ExampleTest.binaryHeapOutputStreamInDirect
+# Parameters: (message = Test)
+
+# Run progress: 42,86% complete, ETA 00:05:14
+# Fork: 1 of 5
+# Warmup Iteration   1: 66,981 ns/op
+# Warmup Iteration   2: 48,097 ns/op
+# Warmup Iteration   3: 51,434 ns/op
+# Warmup Iteration   4: 49,110 ns/op
+# Warmup Iteration   5: 44,909 ns/op
+Iteration   1: 49,741 ns/op
+Iteration   2: 45,982 ns/op
+Iteration   3: 47,723 ns/op
+Iteration   4: 45,492 ns/op
+Iteration   5: 50,497 ns/op
+Iteration   6: 45,941 ns/op
+Iteration   7: 48,611 ns/op
+Iteration   8: 45,885 ns/op
+Iteration   9: 45,133 ns/op
+Iteration  10: 49,679 ns/op
+
+# Run progress: 45,71% complete, ETA 00:04:58
+# Fork: 2 of 5
+# Warmup Iteration   1: 66,716 ns/op
+# Warmup Iteration   2: 48,559 ns/op
+# Warmup Iteration   3: 51,564 ns/op
+# Warmup Iteration   4: 49,460 ns/op
+# Warmup Iteration   5: 44,699 ns/op
+Iteration   1: 49,527 ns/op
+Iteration   2: 45,775 ns/op
+Iteration   3: 47,583 ns/op
+Iteration   4: 45,641 ns/op
+Iteration   5: 50,529 ns/op
+Iteration   6: 45,624 ns/op
+Iteration   7: 48,581 ns/op
+Iteration   8: 45,927 ns/op
+Iteration   9: 44,999 ns/op
+Iteration  10: 49,628 ns/op
+
+# Run progress: 48,57% complete, ETA 00:04:43
+# Fork: 3 of 5
+# Warmup Iteration   1: 66,969 ns/op
+# Warmup Iteration   2: 48,435 ns/op
+# Warmup Iteration   3: 51,279 ns/op
+# Warmup Iteration   4: 48,886 ns/op
+# Warmup Iteration   5: 44,712 ns/op
+Iteration   1: 49,624 ns/op
+Iteration   2: 46,260 ns/op
+Iteration   3: 49,932 ns/op
+Iteration   4: 46,111 ns/op
+Iteration   5: 49,616 ns/op
+Iteration   6: 45,853 ns/op
+Iteration   7: 44,840 ns/op
+Iteration   8: 49,254 ns/op
+Iteration   9: 46,043 ns/op
+Iteration  10: 46,492 ns/op
+
+# Run progress: 51,43% complete, ETA 00:04:27
+# Fork: 4 of 5
+# Warmup Iteration   1: 66,993 ns/op
+# Warmup Iteration   2: 48,066 ns/op
+# Warmup Iteration   3: 51,931 ns/op
+# Warmup Iteration   4: 50,112 ns/op
+# Warmup Iteration   5: 47,090 ns/op
+Iteration   1: 49,306 ns/op
+Iteration   2: 48,138 ns/op
+Iteration   3: 46,917 ns/op
+Iteration   4: 50,278 ns/op
+Iteration   5: 45,254 ns/op
+Iteration   6: 49,103 ns/op
+Iteration   7: 46,585 ns/op
+Iteration   8: 47,227 ns/op
+Iteration   9: 46,082 ns/op
+Iteration  10: 46,302 ns/op
+
+# Run progress: 54,29% complete, ETA 00:04:11
+# Fork: 5 of 5
+# Warmup Iteration   1: 61,330 ns/op
+# Warmup Iteration   2: 51,439 ns/op
+# Warmup Iteration   3: 49,460 ns/op
+# Warmup Iteration   4: 50,092 ns/op
+# Warmup Iteration   5: 45,307 ns/op
+Iteration   1: 51,757 ns/op
+Iteration   2: 46,339 ns/op
+Iteration   3: 48,558 ns/op
+Iteration   4: 46,162 ns/op
+Iteration   5: 50,191 ns/op
+Iteration   6: 45,654 ns/op
+Iteration   7: 49,171 ns/op
+Iteration   8: 45,815 ns/op
+Iteration   9: 45,860 ns/op
+Iteration  10: 47,710 ns/op
+
+
+Result "org.sample.ExampleTest.binaryHeapOutputStreamInDirect":
+  47,499 ±(99.9%) 0,933 ns/op [Average]
+  (min, avg, max) = (44,840, 47,499, 51,757), stdev = 1,885
+  CI (99.9%): [46,565, 48,432] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 50 days ago)
+# VM version: JDK 1.7.0_79, VM 24.79-b02
+# VM invoker: C:\Program Files\Java\jre7\bin\java.exe
+# VM options: -Xms1024m -Xmx4096m
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ExampleTest.binaryHeapOutputStreamInDirect
+# Parameters: (message = TestTest)
+
+# Run progress: 57,14% complete, ETA 00:03:56
+# Fork: 1 of 5
+# Warmup Iteration   1: 69,978 ns/op
+# Warmup Iteration   2: 53,974 ns/op
+# Warmup Iteration   3: 49,292 ns/op
+# Warmup Iteration   4: 56,737 ns/op
+# Warmup Iteration   5: 51,088 ns/op
+Iteration   1: 50,956 ns/op
+Iteration   2: 49,356 ns/op
+Iteration   3: 49,302 ns/op
+Iteration   4: 52,396 ns/op
+Iteration   5: 51,022 ns/op
+Iteration   6: 52,238 ns/op
+Iteration   7: 51,116 ns/op
+Iteration   8: 54,492 ns/op
+Iteration   9: 53,626 ns/op
+Iteration  10: 52,703 ns/op
+
+# Run progress: 60,00% complete, ETA 00:03:40
+# Fork: 2 of 5
+# Warmup Iteration   1: 72,185 ns/op
+# Warmup Iteration   2: 63,131 ns/op
+# Warmup Iteration   3: 52,925 ns/op
+# Warmup Iteration   4: 50,137 ns/op
+# Warmup Iteration   5: 52,676 ns/op
+Iteration   1: 52,506 ns/op
+Iteration   2: 49,956 ns/op
+Iteration   3: 55,377 ns/op
+Iteration   4: 51,202 ns/op
+Iteration   5: 53,266 ns/op
+Iteration   6: 57,047 ns/op
+Iteration   7: 57,133 ns/op
+Iteration   8: 49,771 ns/op
+Iteration   9: 53,128 ns/op
+Iteration  10: 51,154 ns/op
+
+# Run progress: 62,86% complete, ETA 00:03:24
+# Fork: 3 of 5
+# Warmup Iteration   1: 67,437 ns/op
+# Warmup Iteration   2: 65,312 ns/op
+# Warmup Iteration   3: 54,083 ns/op
+# Warmup Iteration   4: 53,859 ns/op
+# Warmup Iteration   5: 54,754 ns/op
+Iteration   1: 49,989 ns/op
+Iteration   2: 54,819 ns/op
+Iteration   3: 50,136 ns/op
+Iteration   4: 52,848 ns/op
+Iteration   5: 50,078 ns/op
+Iteration   6: 52,371 ns/op
+Iteration   7: 50,162 ns/op
+Iteration   8: 54,303 ns/op
+Iteration   9: 50,184 ns/op
+Iteration  10: 50,133 ns/op
+
+# Run progress: 65,71% complete, ETA 00:03:09
+# Fork: 4 of 5
+# Warmup Iteration   1: 67,611 ns/op
+# Warmup Iteration   2: 63,121 ns/op
+# Warmup Iteration   3: 55,810 ns/op
+# Warmup Iteration   4: 49,474 ns/op
+# Warmup Iteration   5: 50,383 ns/op
+Iteration   1: 56,808 ns/op
+Iteration   2: 50,193 ns/op
+Iteration   3: 51,397 ns/op
+Iteration   4: 51,396 ns/op
+Iteration   5: 49,429 ns/op
+Iteration   6: 49,410 ns/op
+Iteration   7: 51,397 ns/op
+Iteration   8: 49,153 ns/op
+Iteration   9: 49,552 ns/op
+Iteration  10: 51,130 ns/op
+
+# Run progress: 68,57% complete, ETA 00:02:53
+# Fork: 5 of 5
+# Warmup Iteration   1: 64,683 ns/op
+# Warmup Iteration   2: 61,000 ns/op
+# Warmup Iteration   3: 51,195 ns/op
+# Warmup Iteration   4: 51,951 ns/op
+# Warmup Iteration   5: 50,086 ns/op
+Iteration   1: 55,406 ns/op
+Iteration   2: 49,245 ns/op
+Iteration   3: 49,567 ns/op
+Iteration   4: 52,701 ns/op
+Iteration   5: 50,870 ns/op
+Iteration   6: 49,717 ns/op
+Iteration   7: 51,091 ns/op
+Iteration   8: 49,786 ns/op
+Iteration   9: 49,649 ns/op
+Iteration  10: 53,910 ns/op
+
+
+Result "org.sample.ExampleTest.binaryHeapOutputStreamInDirect":
+  51,692 ±(99.9%) 1,088 ns/op [Average]
+  (min, avg, max) = (49,153, 51,692, 57,133), stdev = 2,199
+  CI (99.9%): [50,603, 52,780] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 50 days ago)
+# VM version: JDK 1.7.0_79, VM 24.79-b02
+# VM invoker: C:\Program Files\Java\jre7\bin\java.exe
+# VM options: -Xms1024m -Xmx4096m
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ExampleTest.binaryHeapOutputStreamInDirect
+# Parameters: (message = TestTestTestTestTestTest)
+
+# Run progress: 71,43% complete, ETA 00:02:37
+# Fork: 1 of 5
+# Warmup Iteration   1: 93,547 ns/op
+# Warmup Iteration   2: 81,502 ns/op
+# Warmup Iteration   3: 77,169 ns/op
+# Warmup Iteration   4: 81,149 ns/op
+# Warmup Iteration   5: 69,530 ns/op
+Iteration   1: 73,787 ns/op
+Iteration   2: 70,432 ns/op
+Iteration   3: 74,621 ns/op
+Iteration   4: 70,233 ns/op
+Iteration   5: 69,615 ns/op
+Iteration   6: 71,029 ns/op
+Iteration   7: 69,894 ns/op
+Iteration   8: 69,969 ns/op
+Iteration   9: 73,717 ns/op
+Iteration  10: 68,944 ns/op
+
+# Run progress: 74,29% complete, ETA 00:02:21
+# Fork: 2 of 5
+# Warmup Iteration   1: 92,728 ns/op
+# Warmup Iteration   2: 80,053 ns/op
+# Warmup Iteration   3: 76,812 ns/op
+# Warmup Iteration   4: 79,612 ns/op
+# Warmup Iteration   5: 69,925 ns/op
+Iteration   1: 73,572 ns/op
+Iteration   2: 68,973 ns/op
+Iteration   3: 70,402 ns/op
+Iteration   4: 71,627 ns/op
+Iteration   5: 70,995 ns/op
+Iteration   6: 70,393 ns/op
+Iteration   7: 70,666 ns/op
+Iteration   8: 69,759 ns/op
+Iteration   9: 69,675 ns/op
+Iteration  10: 69,657 ns/op
+
+# Run progress: 77,14% complete, ETA 00:02:06
+# Fork: 3 of 5
+# Warmup Iteration   1: 92,210 ns/op
+# Warmup Iteration   2: 78,054 ns/op
+# Warmup Iteration   3: 80,591 ns/op
+# Warmup Iteration   4: 81,060 ns/op
+# Warmup Iteration   5: 70,236 ns/op
+Iteration   1: 70,657 ns/op
+Iteration   2: 73,417 ns/op
+Iteration   3: 77,851 ns/op
+Iteration   4: 72,238 ns/op
+Iteration   5: 72,921 ns/op
+Iteration   6: 73,767 ns/op
+Iteration   7: 72,577 ns/op
+Iteration   8: 71,722 ns/op
+Iteration   9: 72,493 ns/op
+Iteration  10: 71,734 ns/op
+
+# Run progress: 80,00% complete, ETA 00:01:50
+# Fork: 4 of 5
+# Warmup Iteration   1: 92,127 ns/op
+# Warmup Iteration   2: 76,617 ns/op
+# Warmup Iteration   3: 79,893 ns/op
+# Warmup Iteration   4: 76,675 ns/op
+# Warmup Iteration   5: 74,674 ns/op
+Iteration   1: 69,815 ns/op
+Iteration   2: 70,362 ns/op
+Iteration   3: 71,194 ns/op
+Iteration   4: 70,084 ns/op
+Iteration   5: 69,151 ns/op
+Iteration   6: 69,768 ns/op
+Iteration   7: 69,300 ns/op
+Iteration   8: 69,669 ns/op
+Iteration   9: 69,301 ns/op
+Iteration  10: 68,680 ns/op
+
+# Run progress: 82,86% complete, ETA 00:01:34
+# Fork: 5 of 5
+# Warmup Iteration   1: 92,968 ns/op
+# Warmup Iteration   2: 78,601 ns/op
+# Warmup Iteration   3: 80,930 ns/op
+# Warmup Iteration   4: 75,135 ns/op
+# Warmup Iteration   5: 75,641 ns/op
+Iteration   1: 70,104 ns/op
+Iteration   2: 71,550 ns/op
+Iteration   3: 72,412 ns/op
+Iteration   4: 71,384 ns/op
+Iteration   5: 70,215 ns/op
+Iteration   6: 74,782 ns/op
+Iteration   7: 69,163 ns/op
+Iteration   8: 69,245 ns/op
+Iteration   9: 70,678 ns/op
+Iteration  10: 69,605 ns/op
+
+
+Result "org.sample.ExampleTest.binaryHeapOutputStreamInDirect":
+  71,076 ±(99.9%) 0,931 ns/op [Average]
+  (min, avg, max) = (68,680, 71,076, 77,851), stdev = 1,880
+  CI (99.9%): [70,145, 72,007] (assumes normal distribution)
+
+
+# JMH 1.17.4 (released 50 days ago)
+# VM version: JDK 1.7.0_79, VM 24.79-b02
+# VM invoker: C:\Program Files\Java\jre7\bin\java.exe
+# VM options: -Xms1024m -Xmx4096m
+# Warmup: 5 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.LatchPerformanceTest.testRemoteListenOrderedMessages
+
+# Run progress: 85,71% complete, ETA 00:01:18
+# Fork: 1 of 5
+# Warmup Iteration   1: <failure>
+
+java.lang.NullPointerException
+	at org.sample.LatchPerformanceTest.testRemoteListenOrderedMessages(LatchPerformanceTest.java:139)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_avgt_jmhStub(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:190)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_AverageTime(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:453)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:437)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+
+# Run progress: 88,57% complete, ETA 00:01:01
+# Fork: 2 of 5
+# Warmup Iteration   1: <failure>
+
+java.lang.NullPointerException
+	at org.sample.LatchPerformanceTest.testRemoteListenOrderedMessages(LatchPerformanceTest.java:139)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_avgt_jmhStub(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:190)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_AverageTime(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:453)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:437)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+
+# Run progress: 91,43% complete, ETA 00:00:44
+# Fork: 3 of 5
+# Warmup Iteration   1: <failure>
+
+java.lang.NullPointerException
+	at org.sample.LatchPerformanceTest.testRemoteListenOrderedMessages(LatchPerformanceTest.java:139)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_avgt_jmhStub(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:190)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_AverageTime(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:453)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:437)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+
+# Run progress: 94,29% complete, ETA 00:00:28
+# Fork: 4 of 5
+# Warmup Iteration   1: <failure>
+
+java.lang.NullPointerException
+	at org.sample.LatchPerformanceTest.testRemoteListenOrderedMessages(LatchPerformanceTest.java:139)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_avgt_jmhStub(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:190)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_AverageTime(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:453)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:437)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+
+# Run progress: 97,14% complete, ETA 00:00:13
+# Fork: 5 of 5
+# Warmup Iteration   1: <failure>
+
+java.lang.NullPointerException
+	at org.sample.LatchPerformanceTest.testRemoteListenOrderedMessages(LatchPerformanceTest.java:139)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_avgt_jmhStub(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:190)
+	at org.sample.generated.LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.testRemoteListenOrderedMessages_AverageTime(LatchPerformanceTest_testRemoteListenOrderedMessages_jmhTest.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:453)
+	at org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call(BenchmarkHandler.java:437)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+
+
+# Run complete. Total time: 00:07:54
+
+Benchmark                                                  (message)  Mode  Cnt   Score   Error  Units
+ExampleTest.binaryHeapOutputStreamDirect                        Test  avgt   50  20,481 ± 0,647  ns/op
+ExampleTest.binaryHeapOutputStreamDirect                    TestTest  avgt   50  32,251 ± 0,917  ns/op
+ExampleTest.binaryHeapOutputStreamDirect    TestTestTestTestTestTest  avgt   50  89,153 ± 2,478  ns/op
+ExampleTest.binaryHeapOutputStreamInDirect                      Test  avgt   50  47,499 ± 0,933  ns/op
+ExampleTest.binaryHeapOutputStreamInDirect                  TestTest  avgt   50  51,692 ± 1,088  ns/op
+ExampleTest.binaryHeapOutputStreamInDirect  TestTestTestTestTestTest  avgt   50  71,076 ± 0,931  ns/op
